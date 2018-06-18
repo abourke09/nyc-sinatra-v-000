@@ -46,7 +46,6 @@ class FiguresController < ApplicationController
         :name => params["landmark"]["name"],
         :year_completed => params["landmark"]["year_completed"]
       )
-
     end
 
     @figure.save
